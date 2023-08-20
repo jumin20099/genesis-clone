@@ -4,7 +4,8 @@
 
 #icon{
     position: fixed;
-    margin-left: 1800px;
+    margin-left: 1500px;
+    margin-top: 80px;
     cursor: pointer;
 }
 
@@ -109,6 +110,58 @@ body{
 
 #more2{
     margin-top: 400px;
+}
+
+#swiper{
+    margin-left: 500px;
+    height: 50px;
+    width: 500px;
+}
+
+.swipers{
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 8px;
+    height: 8px;
+    border: 0;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+#swipers1{
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 8px;
+    height: 8px;
+    border: 0;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+#swipers3{
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 60px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: solid white 2px;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+#swiperplaybt{
+    padding: 0;
+    margin-left: 15px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 #models{
