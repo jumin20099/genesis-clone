@@ -17,6 +17,7 @@ header{
     height: 90px;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 
@@ -371,13 +372,74 @@ body{
 
 #spaceNroadtripimgdiv{
     margin-top: 100px;
+    position: relative;
 }
 
 #spaceimg{
     height: 520px;
+    opacity: 50%;
 }
 
 #roadtripimg{
     margin-left: 50px;
     height: 520px;
+    opacity: 50%;
+}
+
+#spaceimgtitle{
+    position: absolute;
+    top: 13%;
+    left: 7.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#spaceimgtxt{
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: lighter;
+}
+
+#spaceimgmore{
+    position: absolute;
+    top: 37%;
+    left: 6.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+#roadtripimgtitle{
+    position: absolute;
+    top: 13%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#roadtripimgtxt{
+    position: absolute;
+    top: 23%;
+    left: 69.8%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: lighter;
+}
+
+#roadtripimgmore{
+    position: absolute;
+    top: 32%;
+    left: 58.3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
 }
