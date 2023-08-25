@@ -4,8 +4,8 @@
 
 #icon{
     position: fixed;
-    margin-left: 1700px;
-    margin-top: 160px;
+    margin-left: 1500px;
+    margin-top: 70px;
     cursor: pointer;
 }
 
@@ -73,7 +73,7 @@ body{
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./genesis-main-key-visual-g70-23my-desktop-2560x900.jpg);
+    background-image: url(./mainBackground.jpg);
     background-position: center;
     background-color: rgb(17, 17, 17);
     overflow-x: hidden;
@@ -298,7 +298,7 @@ body{
     color: white;
     height: 900px;
     width: 1900px;
-    background-image: url(./genesis-kr-main-car-award-23-convertible-desktop-1920x960\ \(1\).png);
+    background-image: url(./awardBackground.png);
     background-position: right;
 }
 
@@ -367,4 +367,17 @@ body{
 
 #autondesign{
     
+}
+
+#spaceNroadtripimgdiv{
+    margin-top: 100px;
+}
+
+#spaceimg{
+    height: 520px;
+}
+
+#roadtripimg{
+    margin-left: 50px;
+    height: 520px;
 }
