@@ -1,7 +1,7 @@
 
 #icon{
     position: fixed;
-    margin-left: 1500px;
+    margin-left: 1800px;
     margin-top: 70px;
     cursor: pointer;
     z-index: 2;
@@ -94,37 +94,49 @@ body{
     width: 1903px;
     height: 768px;
     margin-top: 30px;
-    margin-left: 300px;
     color: white;
     display: block;
 }
 
 #top{
+    margin-left: 300px;
     font-size: 25px;
 }
 
 #mid{
+    margin-left: 300px;
     font-size: 80px;
 }
 
 #bot{
+    margin-left: 300px;
     margin-top: 10px;
     font-size: 25px;
 }
 
+#lines{
+    height: 60px;
+    width: 310px;
+    border-top: solid;
+    border-bottom: solid;
+    margin-top: 135px;
+}
+
 #more1{
+    margin-left: 300px;
     float: left;
     display: flex;
-    margin-top: 400px;
+    margin-top: 200px;
     margin-right: 40px;
 }  
 
 #more2{
-    margin-top: 400px;
+    margin-left: 300px;
+    margin-top: 200px;
 }
 
 #swiper{
-    margin-left: 500px;
+    margin-left: 800px;
     height: 50px;
     width: 500px;
 }
@@ -304,7 +316,7 @@ body{
 #gifs{
     display: flex;
     margin-top: 400px;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 
 .gif{
@@ -324,71 +336,151 @@ body{
 }
 
 #awards{
-    margin-left: 150px;
-    color: white;
-    height: 900px;
+    color: rgb(255, 255, 255);
+    height: 970px;
     width: 1900px;
-    background-image: url(./awardBackground.png);
-    background-position: right;
-}
-
-#awardstext{
-    color: white;
-    margin-top: 400px;
-    margin-left: 350px;
-    font-size: 50px;
-}
-
-#awardsbackground{
-    margin-left: 110px;
-}
-
-#awardsbars{
-    display: flex;
-    color: white;
+    background-image: url(./awardbackground1.png);
+    background-size: cover;
 }
 
 #awardstitle{
-    font-size: 40px;
-    margin-left: 200px;
-    padding-top: 400px;
-}
-
-#awardsinfo{
-    font-size: 20px;
-    margin-left: 200px;
-}
-
-.awardslist{
-    margin-left: 200px;
-    font-weight: bolder;
-    cursor: pointer;
-    margin-top: 50px;
-}
- 
-.awardslists{
-    margin-left: 50px;
-    color: darkgray;
-    cursor: pointer;
-    margin-top: 50px;
-}
-
-#awardsplay{
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    background-color: rgb(17, 17, 17);
     color: white;
-    border-radius: 100%;
-    font-size: 30px;
-    height: 70px;
-    width: 70px;
-    margin-top: 500px;
-    margin-left: 250px;
+    margin-top: 400px;
+    margin-left: 350px;
+    margin-bottom: 0px;
+    font-size: 35px;
 }
 
-#awardsplay:hover{
-    background-color: white;
-    color: black;
+#awardstitlediv{
+    line-height: 150px;
+}
+
+#awardbox1{
+    background-color: rgb(17, 17, 17);
+    width: 660px;
+    height: 719px;
+    margin: 0px 0px 0px 650px;
+    position: relative;
+}
+
+.awardtxt1{
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.awardtxt2{
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 23px;
+}
+
+.awardtxt3{
+    margin-top: 10px;
+    margin-left: 35px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+#awardlogo1{
+    display: flex;
+}
+
+.awardlogo1{
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.awardmore{
+    margin-left: 320px;
+    margin-top: 80px;
+    border-bottom: solid rgb(255, 255, 255) 1px;
     cursor: pointer;
+}
+
+#awardbox2{
+    color: gray;
+    background-color: rgb(12, 12, 12);
+    width: 660px;
+    height: 719px;
+    margin-left: 1500px;
+    position: absolute;
+    top: 3145px;
+    filter: brightness(0.7);
+}
+
+.awardtxt1-1{
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.awardtxt2-2{
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: 23px;
+}
+
+.awardtxt3-3{
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.awardlogo2{
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.nextbt{
+    position: relative;
+    bottom: 400px;
+    left: 300px;
+    font-size: 80px;
+    font-weight: lighter;
+    cursor: pointer;
+    width: 25px;
+    height: 5px;
+    color: white;
+    filter: brightness(2);
+}
+
+#loadingbar{
+    display: flex;
+}
+
+.firstbar{
+    cursor: pointer;
+    margin-left: 800px;
+    margin-top: 35px;
+    width: 120px;
+    height: 3px;
+    background-color: white;
+}
+
+.halfbar{
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 35px;
+    width: 20px;
+    height: 3px;
+    background-color: rgb(117, 110, 110);
+}
+
+.secondbar{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 35px;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(117, 110, 110);
+}
+
+.playbt{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 26px;
 }
 
 #spaceNroadtripimgdiv{
@@ -434,6 +526,8 @@ body{
     color: white;
     font-weight: lighter;
     cursor: pointer;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    line-height: 3px;
 }
 
 #roadtripimgtitle{
@@ -463,6 +557,8 @@ body{
     color: white;
     font-weight: lighter;
     cursor: pointer;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    line-height: 3px;
 }
 
 #campingbackground{
