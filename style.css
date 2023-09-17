@@ -1,6 +1,3 @@
-#container{
-    height: 8500px;
-}
 
 #icon{
     position: fixed;
@@ -179,6 +176,8 @@ body{
 #all{
     margin-top: 60px;
     font-size:  20px;
+    text-decoration: underline;
+    text-underline-offset : 20px;
 }
 
 #titlehover:hover{
@@ -501,7 +500,7 @@ body{
 #experience{
     background-color: white;
     width: 1920px;
-    height: 1800px;
+    height: 1900px;
     margin-top: 1500px;
 }
 #insta{
@@ -564,8 +563,16 @@ body{
     display: inline-block;
     height: 630px;
     width: 630px;
+    margin-top: 70px;
     background-image: url(./ExperienceGenesis2.PNG);
     transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+#expimg2:hover .image{
+    filter: brightness(0.6);
+    transform: scale(1.2);
 }
 
 #expimg2:hover{
@@ -576,10 +583,704 @@ body{
     display: inline-block;
     height: 630px;
     width: 630px;
+    margin-top: 70px;
     background-image: url(./ExperienceGenesis3.PNG);
     transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+#expimg3:hover .image{
+    filter: brightness(0.6);
+    transform: scale(1.2);
 }
 
 #expimg3:hover{
     filter: brightness(0.6);
+}
+
+#expmore{
+    width: 240px;
+    height: 56px;
+    border: solid black 1px;
+    text-align: center;
+    margin-left: 850px;
+    margin-top: 50px;
+    line-height : 56px;
+}
+
+#expmore:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+#explink{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 130px;
+}
+
+#linkimgs{
+    display: flex;
+}
+
+.linkimgs1{
+    width: 510px;
+    height: 330px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.linkimgs{
+    width: 510px;
+    height: 330px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.linkimgtitle1{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.linkimgtxt1{
+    margin-left: 150px;
+}
+
+.linkimgmore1{
+    text-decoration: underline;
+    text-underline-offset : 10px;
+    margin-left: 150px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.linkimgtitle{
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.linkimgtxt{
+    margin-left: 40px;
+}
+
+.linkimgmore{
+    text-decoration: underline;
+    text-underline-offset : 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    width: 110px;
+}
+
+footer{
+    
+}
+
+#share{
+    display: flex;
+    background-color: rgb(14, 14, 14);
+}
+
+.share{
+    color: white;
+    margin-left: 150px;
+}
+
+.f{
+    color: gray;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.f:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.x{
+    color: gray;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.x:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.link{
+    color: gray;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.link:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.top{
+    color: white;
+    margin-left: 1450px;
+    cursor: pointer;
+}
+
+.hr{
+    width: 1920px;
+    height: 1px;
+    background-color: rgb(61, 61, 61);
+}
+
+#notice{
+    line-height: 40px;
+    height: 80px;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    display: flex;
+}
+
+.notice{
+    margin-left: 150px;
+}
+
+.noticeplay{
+    cursor: pointer;
+    margin-left: 1085px;
+}
+
+#footer1{
+    margin-top: 100px;
+    margin-left: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer1title{
+    color: white;
+}
+
+.footer1-1{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-1:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-2{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-2:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-3{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-3:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-4{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-4:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-5{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-5:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-6{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-6:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-7{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-7:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-8{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-8:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-9{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-9:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer1-10{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer1-10:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+#footer2{
+    margin-top: 100px;
+    margin-left: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer2title{
+    color: white;
+}
+
+.footer2-1{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer2-1:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer2-2{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer2-2:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer2-3{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer2-3:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer2-4{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer2-4:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer2-5{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer2-5:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer2-6{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer2-6:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+#footer3{
+    margin-top: 100px;
+    margin-left: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer3title{
+    color: white;
+}
+
+.footer3-1{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer3-1:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer3-2{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer3-2:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer3-3{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer3-3:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer3-4{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer3-4:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer3-5{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer3-5:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer3-6{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer3-6:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+#footer4{
+    margin-top: 100px;
+    margin-left: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer4title{
+    color: white;
+}
+
+.footer4-1{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer4-1:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer4-2{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer4-2:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer4-3{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer4-3:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer4-4{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer4-4:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+#secondfooterlinks{
+    display: inline-block;
+}
+
+#footer5{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer5title{
+    color: white;
+}
+
+.footer5-1{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer5-1:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer5-2{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer5-2:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer5-3{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer5-3:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer5-4{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer5-4:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+.footer5-5{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer5-5:hover{
+    cursor: pointer;
+    color:#ffffff;
+    transition: 0.2s;
+}
+
+#footer6{
+    margin-top: 50px;
+    margin-left: 320px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer6title{
+    color: white;
+}
+
+.footer6-1{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer6-1:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer6-2{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer6-2:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer6-3{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer6-3:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer6-4{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer6-4:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer6-5{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer6-5:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+.footer6-6{
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer6-6:hover{
+    cursor: pointer;
+    color:#fff;
+    transition: 0.2s;
+}
+
+#footer7{
+    margin-top: 50px;
+    margin-left: 290px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer7title{
+    color: white;
+}
+
+.footerbottom1{
+    background-color: rgb(14, 14, 14);
+}
+
+.footerbottom2{
+    background-color: rgb(14, 14, 14);
 }
